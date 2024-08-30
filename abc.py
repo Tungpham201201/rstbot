@@ -1,7 +1,7 @@
 import telebot
 import random
 
-TOKEN = '7264904413:AAGraTZ4isP4qY_OQBTEXmeAh6-5aGPk5Og'
+TOKEN = '7253045055:AAEqUX5zWPCEjOkeNIPAcHy3g_bRY50PFZg'
 bot = telebot.TeleBot(TOKEN)
 
 user_counts = {}
