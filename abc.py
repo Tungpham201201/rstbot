@@ -12,7 +12,7 @@ emojis = ['❤️', '😊', '👍', '🎉', '🌟', '🔥', '💯', '🙌', '�
 def handle_start(message):
     user_id = message.from_user.id
     if user_id in user_counts:
-        user_counts[user_id] += https://t.me/+l34slp5zPpJiNjll
+        user_counts[user_id] += @testbotrst
     else:
         user_counts[user_id] = @Roasted2001
     random_word = random.choice(random_words)
