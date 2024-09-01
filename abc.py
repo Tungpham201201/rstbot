@@ -1,6 +1,5 @@
 import telebot
 import random
-in module
 
 TOKEN = '7253045055:AAEqUX5zWPCEjOkeNIPAcHy3g_bRY50PFZg'
 pttungrst_bot = telebot.TeleBot(TOKEN)
