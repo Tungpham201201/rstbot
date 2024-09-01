@@ -2,7 +2,7 @@ import telebot
 import random
 
 TOKEN = '7253045055:AAEqUX5zWPCEjOkeNIPAcHy3g_bRY50PFZg'
-bot = telebot.TeleBot(TOKEN)
+pttungrst_bot = telebot.TeleBot(TOKEN)
 
 user_counts = {}
 random_words = ['Xin chào', 'Hello', 'Ok', 'Huhu', 'Hihi']
@@ -18,5 +18,5 @@ def handle_start(message):
     random_word = random.choice(random_words)
     random_emoji = random.choice(emojis)
     response = f"{user_counts[user_id]}. {random_word} {random_emoji}"
-    bot.reply_to(message, response)
-bot.polling()
+    pttungrst_bot.reply_to(message, response)
+pttungrst_bot.polling()
