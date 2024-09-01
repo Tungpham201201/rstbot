@@ -1,3 +1,4 @@
+in <module>
 import telebot
 import random
 
