@@ -1,8 +1,8 @@
-import telebot
+import pttungrst_bot
 import random
 
 TOKEN = '7253045055:AAEqUX5zWPCEjOkeNIPAcHy3g_bRY50PFZg'
-bot = telebot.TeleBot(TOKEN)
+bot = pttungrst_bot.pttungrst_bot(TOKEN)
 
 user_counts = {}
 random_words = ['Xin chào', 'Hello', 'Ok', 'Huhu', 'Hihi']
