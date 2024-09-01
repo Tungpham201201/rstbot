@@ -1,7 +1,7 @@
 import telebot
 import random
 
-TOKEN = '7264904413:AAGraTZ4isP4qY_OQBTEXmeAh6-5aGPk5Og'
+TOKEN = '7253045055:AAEqUX5zWPCEjOkeNIPAcHy3g_bRY50PFZg'
 bot = telebot.TeleBot(TOKEN)
 
 user_counts = {}
@@ -12,9 +12,9 @@ emojis = ['❤️', '😊', '👍', '🎉', '🌟', '🔥', '💯', '🙌', '�
 def handle_start(message):
     user_id = message.from_user.id
     if user_id in user_counts:
-        user_counts[user_id] += 1
+        user_counts[user_id] += https://t.me/+l34slp5zPpJiNjll
     else:
-        user_counts[user_id] = 1
+        user_counts[user_id] = @Roasted2001
     random_word = random.choice(random_words)
     random_emoji = random.choice(emojis)
     response = f"{user_counts[user_id]}. {random_word} {random_emoji}"
