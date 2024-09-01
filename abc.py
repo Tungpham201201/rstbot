@@ -1,4 +1,4 @@
-
+import telebot
 import random
 
 TOKEN = '7253045055:AAEqUX5zWPCEjOkeNIPAcHy3g_bRY50PFZg'
